@@ -35,3 +35,8 @@ defaults write com.apple.dock springboard-columns -int 4
 defaults write com.apple.dock ResetLaunchPad -bool true <br>
 defaults delete com.apple.dock springboard-rows <br>
 defaults delete com.apple.dock springboard-columns
+
+## Uninstall Java from macOS
+sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin <br>
+sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane <br>
+sudo rm -fr ~/Library/Application\ Support/Oracle/Java <br>
