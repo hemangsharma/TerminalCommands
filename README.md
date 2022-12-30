@@ -40,3 +40,9 @@ defaults delete com.apple.dock springboard-columns
 sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin <br>
 sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane <br>
 sudo rm -fr ~/Library/Application\ Support/Oracle/Java <br>
+
+## Reset Parallels
+(!/bin/sh)
+( Reset Parallels Desktop's trial and generate a casual email address to register a new user)<br><br>
+rm /private/var/root/Library/Preferences/com.parallels.desktop.plist /Library/Preferences/Parallels/licenses.xml<br><br>
+jot -w pdu%d@gmail.com -r 1
