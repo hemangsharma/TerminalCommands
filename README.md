@@ -46,3 +46,7 @@ sudo rm -fr ~/Library/Application\ Support/Oracle/Java <br>
 ( Reset Parallels Desktop's trial and generate a casual email address to register a new user)<br><br>
 rm /private/var/root/Library/Preferences/com.parallels.desktop.plist /Library/Preferences/Parallels/licenses.xml<br><br>
 jot -w pdu%d@gmail.com -r 1
+
+## Test network speed
+```zsh
+networkquality
